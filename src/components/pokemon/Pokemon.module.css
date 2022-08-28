@@ -1,0 +1,51 @@
+.card {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+  backdrop-filter: blur(5px);
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(174, 0, 255);
+  font-size: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 2px 1px;
+}
+
+.image {
+  width: 8rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.id {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  font-size: 1.2rem;
+  color: rgb(174, 0, 255);
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 2px 1px;
+}
+
+h3,
+p {
+  color: rgb(174, 0, 255);
+  font-size: 1.3rem;
+  text-shadow: rgba(0, 0, 0, 0.8) 1px 2px 1px;
+}
