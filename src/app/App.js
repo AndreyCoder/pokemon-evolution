@@ -30,18 +30,13 @@ function App() {
     getAllPokemons()
   }, [])
 
-
-
-
-
-
   return (
     <div className={s.app}>
 
       <div className='s.main'>
         <Pokemos
           allPokemons={allPokemons}
-          getAllPokemons={setAllPokemons}
+          getAllPokemons={getAllPokemons}
         />
       </div>
 

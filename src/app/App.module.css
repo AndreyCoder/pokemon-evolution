@@ -14,3 +14,29 @@
   justify-content: center;
   align-content: center;
 }
+
+@media (max-width: 900px) {
+  .app {
+    background-image: url(../media/pokemons-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    min-width: 100vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .app {
+    background-image: url(../media/Pokemon-Phone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    min-width: 100vw;
+  }
+}

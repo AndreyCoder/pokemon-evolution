@@ -122,6 +122,12 @@
     justify-content: center;
     align-items: center;
   }
+
+  .title {
+    font-size: 2rem;
+    color: rgb(174, 0, 255);
+    text-shadow: rgba(0, 0, 0, 0.8) 1px 2px 1px;
+  }
 }
 
 @media (max-width: 400px) {
