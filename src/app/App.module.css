@@ -18,7 +18,7 @@
 
 @media (max-width: 600px) {
   .app {
-    background-image: url(../media/pokemons-image.jpg);
+    background-image: url(../media/Pokemon-Phone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
