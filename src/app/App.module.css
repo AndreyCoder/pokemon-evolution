@@ -16,7 +16,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .app {
     background-image: url(../media/pokemons-image.jpg);
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   .app {
     background-image: url(../media/Pokemon-Phone.jpg);
     background-repeat: no-repeat;
